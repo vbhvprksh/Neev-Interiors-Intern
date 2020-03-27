@@ -1,0 +1,85 @@
+[18-Mar-2020 10:17:17 Etc/GMT] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/neevinte/public_html/connect.php on line 17
+[18-Mar-2020 15:01:41 Etc/GMT] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/neevinte/public_html/connect.php on line 17
+[18-Mar-2020 15:02:09 Etc/GMT] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/neevinte/public_html/connect.php on line 17
+[18-Mar-2020 15:35:58 Etc/GMT] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/neevinte/public_html/connect.php on line 17
+[18-Mar-2020 16:23:41 Etc/GMT] PHP Notice:  Undefined variable: dbh in /home/neevinte/public_html/connect.php on line 21
+[18-Mar-2020 16:23:41 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/neevinte/public_html/connect.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/neevinte/public_html/connect.php on line 21
+[18-Mar-2020 16:23:43 Etc/GMT] PHP Notice:  Undefined variable: dbh in /home/neevinte/public_html/connect.php on line 21
+[18-Mar-2020 16:23:43 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/neevinte/public_html/connect.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/neevinte/public_html/connect.php on line 21
+[18-Mar-2020 16:24:08 Etc/GMT] PHP Notice:  Undefined variable: dbh in /home/neevinte/public_html/connect.php on line 21
+[18-Mar-2020 16:24:08 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/neevinte/public_html/connect.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/neevinte/public_html/connect.php on line 21
+[18-Mar-2020 16:24:10 Etc/GMT] PHP Notice:  Undefined variable: dbh in /home/neevinte/public_html/connect.php on line 21
+[18-Mar-2020 16:24:10 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/neevinte/public_html/connect.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/neevinte/public_html/connect.php on line 21
+[18-Mar-2020 16:32:15 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-No, Notes) VALUES (Test, Case, test@case.lol, 8765432, asdfghj)' at line 1 in /home/neevinte/public_html/connect.php:22
+Stack trace:
+#0 /home/neevinte/public_html/connect.php(22): PDO->exec('INSERT INTO con...')
+#1 {main}
+  thrown in /home/neevinte/public_html/connect.php on line 22
+[18-Mar-2020 16:38:11 Etc/GMT] PHP Notice:  Undefined index: Firstname in /home/neevinte/public_html/connect.php on line 2
+[18-Mar-2020 16:38:11 Etc/GMT] PHP Notice:  Undefined index: Lastname in /home/neevinte/public_html/connect.php on line 3
+[18-Mar-2020 16:38:11 Etc/GMT] PHP Notice:  Undefined index: Email in /home/neevinte/public_html/connect.php on line 4
+[18-Mar-2020 16:38:11 Etc/GMT] PHP Notice:  Undefined index: Contact in /home/neevinte/public_html/connect.php on line 5
+[18-Mar-2020 16:38:11 Etc/GMT] PHP Notice:  Undefined index: notes in /home/neevinte/public_html/connect.php on line 6
+[18-Mar-2020 16:38:11 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-No, Notes) VALUES (NULL, NULL, NULL, NULL, NULL)' at line 1 in /home/neevinte/public_html/connect.php:22
+Stack trace:
+#0 /home/neevinte/public_html/connect.php(22): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/neevinte/public_html/connect.php on line 22
+[18-Mar-2020 16:38:13 Etc/GMT] PHP Notice:  Undefined index: Firstname in /home/neevinte/public_html/connect.php on line 2
+[18-Mar-2020 16:38:13 Etc/GMT] PHP Notice:  Undefined index: Lastname in /home/neevinte/public_html/connect.php on line 3
+[18-Mar-2020 16:38:13 Etc/GMT] PHP Notice:  Undefined index: Email in /home/neevinte/public_html/connect.php on line 4
+[18-Mar-2020 16:38:13 Etc/GMT] PHP Notice:  Undefined index: Contact in /home/neevinte/public_html/connect.php on line 5
+[18-Mar-2020 16:38:13 Etc/GMT] PHP Notice:  Undefined index: notes in /home/neevinte/public_html/connect.php on line 6
+[18-Mar-2020 16:38:13 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-No, Notes) VALUES (NULL, NULL, NULL, NULL, NULL)' at line 1 in /home/neevinte/public_html/connect.php:22
+Stack trace:
+#0 /home/neevinte/public_html/connect.php(22): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/neevinte/public_html/connect.php on line 22
+[18-Mar-2020 16:38:31 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-No, Notes) VALUES ('Test', 'Case', 'test@case.lol', '8765432', 'asdfghj')' at line 1 in /home/neevinte/public_html/connect.php:22
+Stack trace:
+#0 /home/neevinte/public_html/connect.php(22): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/neevinte/public_html/connect.php on line 22
+[18-Mar-2020 16:39:25 Etc/GMT] PHP Notice:  Undefined index: Firstname in /home/neevinte/public_html/connect.php on line 2
+[18-Mar-2020 16:39:25 Etc/GMT] PHP Notice:  Undefined index: Lastname in /home/neevinte/public_html/connect.php on line 3
+[18-Mar-2020 16:39:25 Etc/GMT] PHP Notice:  Undefined index: Email in /home/neevinte/public_html/connect.php on line 4
+[18-Mar-2020 16:39:25 Etc/GMT] PHP Notice:  Undefined index: Contact in /home/neevinte/public_html/connect.php on line 5
+[18-Mar-2020 16:39:25 Etc/GMT] PHP Notice:  Undefined index: notes in /home/neevinte/public_html/connect.php on line 6
+[18-Mar-2020 16:42:15 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-No, Notes) VALUES ('Test', 'Case', 'test@case.lol', '8765432', 'asdfghj')' at line 1 in /home/neevinte/public_html/connect.php:27
+Stack trace:
+#0 /home/neevinte/public_html/connect.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/neevinte/public_html/connect.php on line 27
+[18-Mar-2020 16:42:54 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-No, Notes) VALUES ('Test', 'Case', 'test@case.lol', '8765432', 'asdfghj')' at line 1 in /home/neevinte/public_html/connect.php:25
+Stack trace:
+#0 /home/neevinte/public_html/connect.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/neevinte/public_html/connect.php on line 25
+[18-Mar-2020 16:43:56 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-No, Notes) VALUES ('Test', 'Case', 'test@case.lol', '8765432', 'asdfghj')' at line 1 in /home/neevinte/public_html/connect.php:25
+Stack trace:
+#0 /home/neevinte/public_html/connect.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/neevinte/public_html/connect.php on line 25
+[18-Mar-2020 16:49:01 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-No, Notes)
+        VALUES ('Test', 'Case', 'test@case.lol', '8765432', 'asdfghj' at line 1 in /home/neevinte/public_html/connect.php:26
+Stack trace:
+#0 /home/neevinte/public_html/connect.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/neevinte/public_html/connect.php on line 26
+[21-Mar-2020 05:36:22 Etc/GMT] PHP Notice:  Undefined index: Firstname in /home/neevinte/public_html/connect.php on line 2
+[21-Mar-2020 05:36:22 Etc/GMT] PHP Notice:  Undefined index: Lastname in /home/neevinte/public_html/connect.php on line 3
+[21-Mar-2020 05:36:22 Etc/GMT] PHP Notice:  Undefined index: Email in /home/neevinte/public_html/connect.php on line 4
+[21-Mar-2020 05:36:22 Etc/GMT] PHP Notice:  Undefined index: Contact in /home/neevinte/public_html/connect.php on line 5
+[21-Mar-2020 05:36:22 Etc/GMT] PHP Notice:  Undefined index: notes in /home/neevinte/public_html/connect.php on line 6
